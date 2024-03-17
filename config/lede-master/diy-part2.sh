@@ -29,11 +29,11 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
-svn co https://github.com/kenzok8/openwrt-packages luci-app-openclash
-svn co https://github.com/kenzok8/openwrt-packages luci-app-smartdns
-svn co https://github.com/kenzok8/openwrt-packages  luci-app-adguardhome
-svn co https://github.com/Siriling/5G-Modem-Support?tab=readme-ov-file rooter
-svn co https://github.com/Siriling/5G-Modem-Support?tab=readme-ov-file luci-app-usbmodem
+# svn co https://github.com/kenzok8/openwrt-packages luci-app-openclash
+# svn co https://github.com/kenzok8/openwrt-packages luci-app-smartdns
+# svn co https://github.com/kenzok8/openwrt-packages  luci-app-adguardhome
+# svn co https://github.com/Siriling/5G-Modem-Support?tab=readme-ov-file rooter
+# svn co https://github.com/Siriling/5G-Modem-Support?tab=readme-ov-file luci-app-usbmodem
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
